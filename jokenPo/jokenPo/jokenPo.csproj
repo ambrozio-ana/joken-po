@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="papel.jpg" />
+    <None Remove="papel2.jpg" />
+    <None Remove="soco.jpg" />
+    <None Remove="soco2.jpg" />
+    <None Remove="tesoura.jpg" />
+    <None Remove="tesoura2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="papel.jpg" />
+    <Resource Include="papel2.jpg" />
+    <Resource Include="soco.jpg" />
+    <Resource Include="soco2.jpg" />
+    <Resource Include="tesoura.jpg" />
+    <Resource Include="tesoura2.jpg" />
+  </ItemGroup>
+
+</Project>
